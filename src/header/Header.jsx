@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./../header/Header.module.scss";
+import styles from "../header/header.module.scss";
 import Home from "../home/Home";
 import { FiSearch, FiUser, FiShoppingCart } from "react-icons/fi";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
