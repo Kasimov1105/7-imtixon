@@ -1,0 +1,32 @@
+.sort {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 73px;
+  background-color: #d5f8cf;
+  align-items: center;
+  text-align: center;
+  margin-top: 39px;
+  margin-bottom: 65px;
+}
+.sort h3 {
+  color: #0ba42d;
+  font-size: 24px;
+  font-family: "Hammersmith One", sans-serif;
+}
+.sort select {
+  color: #0ba42d;
+  font-size: 24px;
+  font-family: "Hammersmith One", sans-serif;
+  line-height: 30px;
+  outline: none;
+  border: none;
+  background-color: inherit;
+}
+
+.mains {
+  margin: auto;
+  max-width: 1290px;
+  display: flex;
+}/*# sourceMappingURL=home.module.css.map */

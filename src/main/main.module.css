@@ -1,0 +1,42 @@
+.products {
+  display: flex;
+  max-width: 900px;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 0;
+}
+.products .productCart {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  box-shadow: 2px 2px 2px 2px rgb(244, 237, 237);
+}
+.products .productCart .idd {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Hammersmith One", sans-serif;
+  line-height: 25px;
+  color: #190D26;
+  text-decoration: none;
+}
+.products .productCart p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.5px;
+  color: #190D26;
+}
+.products .productCart .colors {
+  display: flex;
+  gap: 12px;
+}
+.products .productCart .colors li {
+  list-style: none;
+}
+.products .textWrapper button {
+  margin-bottom: auto;
+  background-color: #0BA42D;
+  border: none;
+  padding: 5px 53px;
+  border-radius: 10px;
+  height: 59px;
+}/*# sourceMappingURL=main.module.css.map */

@@ -1,0 +1,67 @@
+.aside{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    li{
+        list-style: none;
+      
+    }
+    h3{
+        font-family: "Hammersmith One", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 25px;
+        
+    }
+    .brandWrapper{
+        border-top: #6A6969 dashed 2px;
+        padding-top: 27px;
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+        border-bottom: #6A6969 dashed 2px;
+        padding-bottom: 30px;
+        li{
+            display: flex;
+            gap: 18px;
+            font-size: 18px;
+            font-family: "Readex Pro", sans-serif;
+            font-weight: 300;
+            line-height: 22.5px;
+            
+        }
+       
+
+    }
+    .reset{
+        background-color: #0BA42D;
+        max-width: 100px;
+        
+    }
+
+    .colorWrapper{
+        
+        display: flex;
+        max-width: 150px;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+
+    .connect{
+        border-top: #6A6969 dashed 2px;
+        padding-top: 27px;
+        max-width: 200px;
+        span{
+            display: flex;
+            gap: 10px;
+            p{
+                font-size: 16px;
+                font-family: "Readex Pro", sans-serif;
+                font-weight: 300;
+                line-height: 22.5px;
+            }
+        }
+    }
+}
